@@ -1,0 +1,38 @@
+button {
+    padding: 10px 30px;
+    border: none;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(127, 208, 255);
+    color: black;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+
+h1, h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.img > img {
+    width: 100%;
+}
